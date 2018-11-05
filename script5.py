@@ -14,4 +14,5 @@ local_blockchain.add_block(block_three_transactions)
 local_blockchain.print_blocks()
 
 local_blockchain.chain[2].transactions = fake_transactions
+local_blockchain.print_blocks()
 local_blockchain.validate_chain()
